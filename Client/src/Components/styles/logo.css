@@ -1,0 +1,23 @@
+.logo-container h1{
+    display: inline-block;
+    color: #006238;
+    font: normal normal normal 64px/71px Palatino;
+    vertical-align: middle;
+    margin: 0;
+    
+}
+.logo-container img{
+   vertical-align: middle;
+    
+}
+
+
+.icon-container{
+ 
+    background:linear-gradient(#7EE8FA,#EEC0C6);
+    padding: 0.5rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,55 @@
+body{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 40%, rgba(253,29,127,1) 100%, rgba(252,176,69,1) 100%);
+}
+.postFlex{
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.post-container{
+    width:220px;
+    padding: 0.5rem;  
+    border-radius: 0.5rem;      
+    background: linear-gradient(to right, #C04848 0%, #480048  51%, #C04848  100%);  
+     
+}
+.post-container:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+.user{
+    display: flex;
+    justify-content: space-between;
+}
+.title p{
+    margin: 0;
+}
+.post-body{
+    width: 100%;
+    height: 130px;
+    background-color: rgb(194, 27, 158);
+}
+.post-body img{
+    width:100%;
+    height: 100%;
+}
+.post-info{
+    padding:0.2rem;
+}
+.post-info img{
+    width: 25px;
+
+}
+.post-info span{
+float: right;
+}
+p{
+    margin: 0;
+    margin-bottom: 1rem;
+}
